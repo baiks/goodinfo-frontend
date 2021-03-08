@@ -8,7 +8,7 @@ In order to install and run this project locally, you would need to have the fol
 - [**Node JS**](https://nodejs.org/en/)
 - [**Docker Engine**](https://www.docker.com/)
 
-##Manual Installation
+## Manual Installation
 
 - Clone this repository
 
