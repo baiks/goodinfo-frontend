@@ -1,0 +1,16 @@
+version: "3.5"
+
+services:
+  frontend:
+    container_name: frontend
+    image: docker.io/luapk4/frontend:v1.0.0
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - /data/frontend
+    environment:
+      API: http://localhost:9015/btc
+
+    ports:
+      - "9016:4002"
